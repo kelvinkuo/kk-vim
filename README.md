@@ -1,9 +1,12 @@
 # kk-vim
 ## Install
 ```bash
-cd tmp_path  # any tmp path
-git clone https://github.com/kelvinkuo/kk-vim.git
-mv kk-vim ~/.vim
+# if you have ~/.vimrc or ~/.vim pls remove by
+rm -rf ~/.vim
+rm ~/.vimrc
+
+# then
+git clone https://github.com/kelvinkuo/kk-vim.git  ~/.vim
 ```
 
 ## Update
