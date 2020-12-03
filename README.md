@@ -7,10 +7,13 @@ rm ~/.vimrc
 
 # then
 git clone https://github.com/kelvinkuo/kk-vim.git  ~/.vim
+cd ~/.vim
+git submodule update --init
 ```
 
 ## Update
 ```bash
 cd ~/.vim
 git pull
+git submodule update --init
 ```
